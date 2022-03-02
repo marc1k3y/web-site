@@ -1,0 +1,30 @@
+.aboutWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.aboutWrapper>h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.nickname {
+  display: flex;
+  gap: 5px;
+}
+
+.nn {
+  font-weight: bold;
+}
+
+.timer {
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.time {
+  font-weight: bold;
+}

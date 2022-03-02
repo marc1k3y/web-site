@@ -7,8 +7,8 @@ export const Projects = () => {
     <div className={cn.projectsWrapper}>
       <h2>marc1k3y projects</h2>
       <div className={cn.list}>
-        {projects.map(project =>
-          <div className={cn.project}>
+        {projects.map((project, index) =>
+          <div key={index} className={cn.project}>
             <div className={cn.logo}>
               <img src={project.logo} alt="logo" />
             </div>
@@ -24,7 +24,7 @@ export const Projects = () => {
               <img src={project.typeIco} alt="prj-type" />
             </div>
             <div className={cn.link}>
-              <a href={project.link}>link</a>
+              <a href={project.link} target="_blank" rel="noreferrer">link</a>
             </div>
           </div>)}
 

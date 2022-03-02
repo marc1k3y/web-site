@@ -8,7 +8,7 @@ export const Navbar = ({ visible, setOpen }) => {
     <div className={cn.navbarWrapper} style={{ display: visible ? "flex" : "none" }}>
       {links.map((link, index) =>
         <NavLink key={index} to={link.to} onClick={() => setOpen(false)}
-          style={{ backgroundColor: pathname === link.to && "gray", color: pathname === link.to && "white" }}>
+          style={{ backgroundColor: pathname === link.to && "lightgray" }}>
           {link.title}
         </NavLink>
       )}

@@ -1,0 +1,25 @@
+.homeWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.homeWrapper>h2 a {
+  color: black;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.somePhoto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.somePhoto img {
+  width: 90%;
+  border-radius: 10px;
+  box-shadow: 0 0 20px black;
+}

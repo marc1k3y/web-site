@@ -1,0 +1,90 @@
+.headerWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: whitesmoke;
+  height: 60px;
+  padding: 0 20px;
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.head {
+  height: 20px;
+  width: 15px;
+  background-color: black;
+  border-radius: 50%;
+  margin-bottom: -5px;
+}
+
+.body {
+  height: 20px;
+  width: 25px;
+  background-color: black;
+  border-top-left-radius: 30%;
+  border-top-right-radius: 30%;
+}
+
+.pcWrap {
+  margin-top: -22px;
+  height: 25px;
+  overflow: hidden;
+  padding: 10px 10px 0 10px;
+}
+
+.pc {
+  height: 15px;
+  width: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 8px;
+  border-top: 1px solid silver;
+  border-left: 1px solid silver;
+  border-right: 1px solid silver;
+  background-color: gray;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  box-shadow: 0 0 10px white;
+  overflow: hidden;
+}
+
+.burger {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.topBun {
+  height: 10px;
+  background-color: gray;
+  width: 25px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.middle {
+  height: 4px;
+  width: 27px;
+  background-color: black;
+  border-radius: 5px;
+}
+
+.botBun {
+  height: 6px;
+  width: 25px;
+  background-color: gray;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}

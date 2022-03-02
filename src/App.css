@@ -8,9 +8,16 @@
 #root {
   display: flex;
   flex-direction: column;
-  height: 100vh;
 }
 
 .App {
+  min-height: 100vh;
   background-color: lightgray;
+}
+
+.app-content {
+  padding-top: 90px;
+  padding-bottom: 30px;
+  width: 90%;
+  margin: auto;
 }

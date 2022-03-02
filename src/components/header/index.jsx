@@ -15,10 +15,11 @@ export const Header = () => {
       </div>
       <div className={cn.burger} onClick={() => setMoveBurger(!moveBurger)}>
         <div className={cn.topBun} style={{ marginBottom: moveBurger && "3px" }}></div>
-        <div className={cn.middle}></div>
+        <div className={cn.cheese} style={{ display: moveBurger ? "flex" : "none" }}></div>
+        <div className={cn.middle} style={{ marginTop: moveBurger && "3px" }}></div>
         <div className={cn.botBun} style={{ marginTop: moveBurger && "3px" }}></div>
       </div>
-      <Navbar visible={moveBurger} />
+      <Navbar visible={moveBurger} setOpen={setMoveBurger} />
     </div>
   )
 }

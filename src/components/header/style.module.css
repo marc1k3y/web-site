@@ -1,8 +1,13 @@
 .headerWrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
   background-color: whitesmoke;
+  box-shadow: 0 10px 15px gray;
   height: 60px;
   padding: 0 20px;
 }
@@ -72,6 +77,13 @@
   width: 25px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+}
+
+.cheese {
+  height: 2px;
+  width: 29px;
+  background-color: goldenrod;
+  border-radius: 5px;
 }
 
 .middle {

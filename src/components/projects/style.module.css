@@ -24,23 +24,22 @@
 }
 
 .title {
-  box-shadow: 0 0 5px gray;
   padding: 5px 10px;
   border-radius: 10px;
   font-weight: bold;
   text-align: center;
+  background-color: gray;
+  color: white;
 }
 
 .desc {
   text-align: center;
-  box-shadow: 0 0 5px gray;
   padding: 10px;
   border-radius: 10px;
 }
 
 .desc>div {
   font-weight: bold;
-  border-bottom: 1px solid #000;
   margin-bottom: 5px;
 }
 
@@ -59,7 +58,7 @@
 
 .link {
   padding: 5px 10px;
-  border-radius: 15px;
+  border-radius: 10px;
   box-shadow: 0 0 5px black;
 }
 

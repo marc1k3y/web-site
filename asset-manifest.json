@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/web-site/static/css/main.0cf94849.css",
+    "main.css": "/web-site/static/css/main.061c71da.css",
     "main.js": "/web-site/static/js/main.81588b0f.js",
     "static/media/hurry2.svg": "/web-site/static/media/hurry2.7f21b55f9c600baa17201d7ad2bc6670.svg",
     "static/media/ostype.svg": "/web-site/static/media/ostype.19038c412c845b9b8e2238ae81b0191f.svg",
     "index.html": "/web-site/index.html",
-    "main.0cf94849.css.map": "/web-site/static/css/main.0cf94849.css.map",
+    "main.061c71da.css.map": "/web-site/static/css/main.061c71da.css.map",
     "main.81588b0f.js.map": "/web-site/static/js/main.81588b0f.js.map"
   },
   "entrypoints": [
-    "static/css/main.0cf94849.css",
+    "static/css/main.061c71da.css",
     "static/js/main.81588b0f.js"
   ]
 }

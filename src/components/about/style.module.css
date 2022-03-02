@@ -28,3 +28,32 @@
 .time {
   font-weight: bold;
 }
+
+.socialLabel {
+  margin-top: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.socialLinks {
+  margin-top: -6px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  gap: 10px;
+  border: 2px solid black;
+  margin-right: auto;
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px gray;
+}
+
+.socialLinks img {
+  width: 30px;
+}
+
+@media screen and (max-width: 786px) {
+  .socialLinks a {
+    cursor: none;
+  }
+}

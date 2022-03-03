@@ -8,6 +8,14 @@ export const Header = () => {
     <div className={cn.headerWrapper}>
       <div className={cn.logo}>
         <div className={cn.head}></div>
+        <div className={cn.leftHand}>
+          <div></div>
+          <div></div>
+        </div>
+        <div className={cn.rightHand}>
+          <div></div>
+          <div></div>
+        </div>
         <div className={cn.body}></div>
         <div className={cn.pcWrap}>
           <div className={cn.pc}>?</div>

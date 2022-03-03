@@ -29,12 +29,87 @@
   margin-bottom: -5px;
 }
 
+.leftHand {
+  position: absolute;
+  left: 31px;
+  top: 25px;
+  /* z-index: 300; */
+}
+
+.leftHand>div:first-child {
+  /* background-color: pink; */
+  background-color: black;
+  width: 5px;
+  height: 15px;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  transform: rotate(30deg);
+}
+
+.leftHand>div:last-child {
+  /* background-color: pink; */
+  background-color: black;
+  width: 4px;
+  height: 15px;
+  margin-top: -7px;
+  margin-left: 1px;
+  border-top-left-radius: 20px;
+  animation: codingLh 0.7s infinite;
+}
+
+@keyframes codingLh {
+  from {
+    transform: rotate(-40deg);
+  }
+  to {
+    transform: rotate(-37deg);
+  }
+}
+
+.rightHand {
+  position: absolute;
+  left: 54.5px;
+  top: 25px;
+  /* z-index: 300; */
+}
+
+.rightHand>div:first-child {
+  /* background-color: pink; */
+  background-color: black;
+  width: 5px;
+  height: 15px;
+  margin-left: -0.6px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  transform: rotate(-30deg);
+}
+
+.rightHand>div:last-child {
+  /* background-color: pink; */
+  background-color: black;
+  width: 4px;
+  height: 15px;
+  margin-top: -7px;
+  margin-left: -0.5px;
+  border-top-right-radius: 20px;
+  animation: codingRh 0.5s infinite;
+}
+
+@keyframes codingRh {
+  from {
+    transform: rotate(40deg);
+  }
+  to {
+    transform: rotate(37deg);
+  }
+}
+
 .body {
   height: 20px;
   width: 25px;
   background-color: black;
-  border-top-left-radius: 30%;
-  border-top-right-radius: 30%;
+  border-radius: 30%;
+  z-index: 100;
 }
 
 .pcWrap {
@@ -42,6 +117,7 @@
   height: 25px;
   overflow: hidden;
   padding: 10px 10px 0 10px;
+  z-index: 200;
 }
 
 .pc {
@@ -58,8 +134,20 @@
   background-color: gray;
   border-top-left-radius: 2px;
   border-top-right-radius: 2px;
-  box-shadow: 0 0 10px white;
+  animation: flash 2s infinite;
   overflow: hidden;
+}
+
+@keyframes flash {
+  10% {
+    box-shadow: 0 0 10px white;
+  }
+  30% {
+    box-shadow: 0 0 5px white;
+  }
+  100% {
+    box-shadow: 0 0 12px white;
+  }
 }
 
 .burger {

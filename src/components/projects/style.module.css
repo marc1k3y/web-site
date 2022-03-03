@@ -16,8 +16,8 @@
   padding: 10px;
   border-radius: 20px;
   box-shadow: 10px 10px 10px gray;
-  border: 2px solid black;
   width: 180px;
+  background-color: whitesmoke;
 }
 
 .logo img {

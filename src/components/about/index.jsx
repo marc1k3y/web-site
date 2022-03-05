@@ -2,6 +2,7 @@ import cn from "./style.module.css"
 import { useEffect, useState } from "react"
 import { TimeCounter } from "../timer"
 import tg from "../../assets/tg.svg"
+import inst from "../../assets/inst.svg"
 import gh from "../../assets/gh.svg"
 import bmac from "../../assets/bmac.svg"
 
@@ -27,6 +28,9 @@ export const About = () => {
       <div className={cn.socialLinks}>
         <a href="https://t.me/marc1k3y" target="_blank" rel="noreferrer">
           <img src={tg} alt="tg" />
+        </a>
+        <a href="https://www.instagram.com/marc1k3y/" target="_blank" rel="noreferrer">
+          <img src={inst} alt="instagram" />
         </a>
         <a href="https://github.com/marc1k3y" target="_blank" rel="noreferrer">
           <img src={gh} alt="gh" />
